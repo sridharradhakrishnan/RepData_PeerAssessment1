@@ -23,7 +23,7 @@ library("lattice")
 xyplot(d$steps ~ d$date,type="h",scales=list(rot=90),xlab="Date",ylab="Steps",main="Total Steps on Each Day")
 ```
 
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
+![plot of chunk unnamed-chunk-2](https://github.com/sridharradhakrishnan/RepData_PeerAssessment1/blob/master/figures/unnamed-chunk-2.png) 
 
 (2) Calculate and report the mean and median total number of steps taken per day
 The mean value is 1.0766 &times; 10<sup>4</sup>
