@@ -42,7 +42,7 @@ plot.ts(d3$interval, d3$averagesteps, type = "l", main="Daily Activity Pattern",
         xlab="5-min Interval in a day", ylab="Avg Steps Taken", col="blue")
 ```
 
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
+![plot of chunk unnamed-chunk-3](https://github.com/sridharradhakrishnan/RepData_PeerAssessment1/blob/master/figures/unnamed-chunk-3.png) 
 
 (2) Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 
@@ -81,7 +81,7 @@ xyplot(d5$steps ~ d5$date,type="h",scales=list(rot=90),xlab="Date",ylab="Steps",
        main="Total Steps on Each Day")
 ```
 
-![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
+![plot of chunk unnamed-chunk-5](https://github.com/sridharradhakrishnan/RepData_PeerAssessment1/blob/master/figures/unnamed-chunk-5.png) 
 
 b) Calculate and report the mean and median total number of steps taken per day. 
 The mean value is 1.8298 &times; 10<sup>4</sup>
@@ -104,4 +104,4 @@ names(d6) = c("interval","weektime","averagesteps")
 xyplot(averagesteps ~ interval|weektime,data=d6,layout=c(1,2),type="l")
 ```
 
-![plot of chunk unnamed-chunk-6](figure/unnamed-chunk-6.png) 
+![plot of chunk unnamed-chunk-6](https://github.com/sridharradhakrishnan/RepData_PeerAssessment1/blob/master/figures/unnamed-chunk-6.png) 
